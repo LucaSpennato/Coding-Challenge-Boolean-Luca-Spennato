@@ -1,0 +1,83 @@
+body{
+  background-image: url('immagini/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.central-body{ /* corpo centrale con sfondo trasparente */
+ background-color: rgba(0, 0, 0, 0.5);
+ width: 950px;
+ height: auto;
+ margin: auto;
+ box-sizing: border-box;
+ padding: 70px;
+ margin-top: 25px;
+ border-radius: 20px 20px 20px 20px;
+ font-family: 'Quicksand', sans-serif;
+}
+
+img{ /* logo */
+  width: 200px;
+}
+
+header img, header h1{ /* logo e testo */
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(127, 255, 0);
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+nav{ /* navigatore con bottoni */
+  background-color: rgb(127, 255, 0);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* attributi comuni a section e nav per migliore spaziatura */
+main>section, nav{
+    margin-bottom: 20px;
+}
+
+/* attributi di main e section */
+main{
+  color: white;
+}
+
+section>h3{
+  display: inline;
+}
+
+section:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 5px 5px 5px 5px;
+  box-sizing: border-box;
+}
+
+
+/* charges bars */
+.high{
+  color: rgb(127, 255, 0);
+  width: 500px;
+  background-color: rgb(127, 255, 0);
+}
+
+.medium{
+  color: orange;
+  width: 300px;
+  background-color: orange;
+}
+
+.low{
+  color: red;
+  width: 100px;
+  background-color: red;
+}
+
+.high, .medium, .low{
+  height: 25px;
+  border-radius: 5px 5px 5px 5px;
+}
